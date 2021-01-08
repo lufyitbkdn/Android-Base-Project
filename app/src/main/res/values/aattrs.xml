@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeRevealLayout">
+        <attr name="dragEdge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+
+        <attr name="mode">
+            <enum name="normal" value="0" />
+            <enum name="same_level" value="1" />
+        </attr>
+
+        <attr name="flingVelocity" format="integer" />
+
+        <attr name="minDistRequestDisallowParent" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RoundedConnerImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="round_background" format="boolean" />
+        <attr name="is_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+    <attr name="sizeScaleType">
+        <enum name="width" value="0" />
+        <enum name="height" value="1" />
+    </attr>
+    <declare-styleable name="ScaledFrameLayout">
+        <attr name="sizeScaleType" />
+        <attr name="scaleWidth" format="float" />
+        <attr name="scaleHeight" format="float" />
+    </declare-styleable>
+    <declare-styleable name="ScaledImageView">
+        <attr name="sizeScaleType" />
+        <attr name="scaleWidth" />
+        <attr name="scaleHeight" />
+    </declare-styleable>
+</resources>

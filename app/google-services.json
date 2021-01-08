@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "53655487417",
+    "firebase_url": "https://geopapa-51b95.firebaseio.com",
+    "project_id": "geopapa-51b95",
+    "storage_bucket": "geopapa-51b95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53655487417:android:ca1cd90dab90408ff0ac68",
+        "android_client_info": {
+          "package_name": "com.geopapa.parent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53655487417-27ltmg4dnk42hlhkinl3j9dsk66chd7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaY3cuKJh9Ey2UsLFa2RfFgHusVLKlEgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53655487417-27ltmg4dnk42hlhkinl3j9dsk66chd7b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "53655487417-t9gtmjtp27rdo92dr1k0kae0gm2r2fd6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.geopapa.parent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

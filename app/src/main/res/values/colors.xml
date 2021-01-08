@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="colorAccent">#F6CE55</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="colorTextHighLight">#DD263C</color>
+    <color name="colorTextPrimary">#101D32</color>
+    <color name="colorTextSecondary">#9DA0A5</color>
+    <color name="colorTextThird">#303539</color>
+    <color name="colorBackground">#F6F6F6</color>
+    <color name="colorBackgroundDevices">#F7F7F7</color>
+    <color name="colorBackgroundDialog">#52101D32</color>
+    <color name="colorBackgroundInfoWindow">#E6FFFFFF</color>
+    <color name="colorTextActionBar">#101D32</color>
+
+    <color name="colorButton">#F6CE55</color>
+    <color name="colorButtonDark">#C8A334</color>
+    <color name="colorLine">#E2E4E7</color>
+    <color name="orangeTextHighLight">#DF680F</color>
+    <color name="colorBackgroundActionMenu">#F4F5F6</color>
+    <color name="colorBgDialog">#51101D32</color>
+</resources>

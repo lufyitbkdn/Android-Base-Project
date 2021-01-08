@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="padding_medium">24dp</dimen>
+    <dimen name="padding_big">32dp</dimen>
+    <dimen name="padding_large">48dp</dimen>
+    <dimen name="padding_thin_medium">12dp</dimen>
+    <dimen name="padding_thin">8dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+
+    <dimen name="actionbar_height">44dp</dimen>
+    <dimen name="actionbar_text_size">18sp</dimen>
+    <dimen name="actionbar_text_padding">90dp</dimen>
+
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_thin">14sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+
+    <dimen name="button_height">48dp</dimen>
+
+</resources>

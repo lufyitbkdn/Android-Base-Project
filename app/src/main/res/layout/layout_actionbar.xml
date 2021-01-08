@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:elevation="5dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/navBtnBack"
+        style="@style/ActionBarIconStyle"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/ic_arrow_left" />
+
+    <TextView
+        android:id="@+id/navTvTitle"
+        style="@style/ActionBarTitleStyle"
+        android:layout_centerVertical="true" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/navBtnRight1"
+        style="@style/ActionBarIconStyle"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/ic_arrow_left"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/navBtnRight2"
+        style="@style/ActionBarIconStyle"
+        android:layout_toStartOf="@+id/navBtnRight1"
+        android:src="@mipmap/ic_arrow_left"
+        android:visibility="gone" />
+</RelativeLayout>

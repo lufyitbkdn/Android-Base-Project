@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/default_padding"
+    android:paddingTop="@dimen/padding_thin"
+    android:paddingRight="@dimen/default_padding"
+    android:paddingBottom="@dimen/padding_thin">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello world"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="@dimen/text_size_thin"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="shapeecloud@gmail.com"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="@dimen/text_size_small" />
+</LinearLayout>

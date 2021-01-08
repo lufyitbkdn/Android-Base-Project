@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.shapee.android.ui.fragment.profile.ProfileViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnShowMessage"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="10"
+            tools:listitem="@layout/item_child" />
+
+        <Button
+            android:id="@+id/btnShowMessage"
+            style="@style/Button"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/default_padding"
+            android:layout_marginTop="@dimen/default_padding"
+            android:layout_marginRight="@dimen/default_padding"
+            android:layout_marginBottom="@dimen/default_padding"
+            android:onClick="@{() -> viewModel.showMessage()}"
+            android:text="@string/show_message"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</layout>
