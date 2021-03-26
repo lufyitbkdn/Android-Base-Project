@@ -1,7 +1,7 @@
 # Android-Base-Project
 Base Android project of Shapee Cloud 
-Author: Habbot Phan
-Email: habbot.phan@gmail.com
+- Author: Habbot Phan
+- Email: habbot.phan@gmail.com
 
 Sample application using MMVP technology.
 Implementation from:
