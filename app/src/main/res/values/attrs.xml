@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomToolbar">
+        <attr name="title" format="string"/>
+        <attr name="showBack" format="boolean"/>
+        <attr name="centerTitle" format="boolean"/>
+        <attr name="fontSize" format="dimension"/>
+    </declare-styleable>
+</resources>

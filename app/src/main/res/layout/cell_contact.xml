@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.shapee.sample.ui.contacts.ContactsViewModel" />
+
+        <variable
+            name="contact"
+            type="com.shapee.sample.data.contact.entity.Contact" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        app:deBouncedOnClick="@{() -> viewModel.onContactClick(contact)}"
+        tools:context=".ui.contacts.ContactsFragment">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{contact.name}"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSizeMedium"
+            android:textStyle="bold"
+            tools:text="Habbot" />
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{contact.phoneNumber}"
+            android:textColor="@color/black50"
+            android:textSize="@dimen/textSizeNormal"
+            tools:text="0902121213" />
+    </LinearLayout>
+
+</layout>
